@@ -8,14 +8,24 @@ body {
 
 .grid-template {
     max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
 }
 
 .header-contain {
+    justify-content: center;
     height: auto;
     min-width: 310px;
     margin: 60px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.header-section-title {
+    width: 300px;
+    justify-self: center;
 }
 
 
@@ -34,7 +44,8 @@ body {
 
 .header-section-info {
     width: 410px;
-   padding-left: 10px;
+    justify-self: center;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
 }
